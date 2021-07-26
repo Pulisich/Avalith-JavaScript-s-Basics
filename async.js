@@ -7,7 +7,7 @@
 
 console.log(1);
 
-/* TODO */ function esperar2segundos() {
+/* TODO */ async function esperar2segundos() {
     console.log(3);
     /* TODO */
     return new Promise(resolve => {

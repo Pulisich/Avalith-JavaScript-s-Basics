@@ -16,17 +16,25 @@ let existeClaveMadreB = null;
 let nombreDelMasJoven = null;
 let clavesDelObjeto = [];
 
-/*
-    A partir de los objetos originales, obtener los siguientes resultados:
-    - edadMadre: Edad de la madre
-    - objetoParseado: Objeto "originalB" parseado a objeto
-    - existeClaveMadreA: Si existe la clave madre en el objeto 'originalA'
-    - existeClaveMadreB: Si existe la clave madre en el objeto 'originalB'
-    - nombreDelMasJoven: Nombre de la persona mas joven
-    - clavesDelObjeto: Que claves contiene el objeto 'originalA'
 
-    Reemplazar este comentario con su codigo.
- */
+edadMadre= originalA.madre.edad;
+
+objetoParseado= JSON.parse(originalB)
+
+existeClaveMadreA= Object.keys(originalA).includes("madre") 
+    console.log("La clave madre existe en el objeto originalA");
+
+existeClaveMadreB= Object.keys(objetoParseado).includes("madre")
+    console.log("No hay clave madre en el objeto originalB");
+
+clavesDelObjeto=Object.keys(originalA)
+
+nombreDelMasJoven= 
+objetoParseado.edad<originalA.edad
+? objetoParseado.nombre
+: originalA.nombre;
+
+
 
 console.log(edadMadre);
 console.log(objetoParseado);

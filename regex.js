@@ -9,5 +9,6 @@ let textoCensurado = null;
 
     Reemplazar este comentario con su codigo.
  */
+textoCensurado= texto.replace(/[a-z]/gi, "X")
 
 console.log(textoCensurado)

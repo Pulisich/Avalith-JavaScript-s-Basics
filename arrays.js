@@ -25,6 +25,8 @@ indiceAmarillo= original.indexOf("Amarillo");
 
 arregloSinAzul= original.filter (Azul => Azul !== 'Azul');    
 
+ordenadoPorCantidadLetras= 
+
 console.log(indiceAmarillo);
 console.log(cantidadColoresConA);
 console.log(arregloSinAzul);
