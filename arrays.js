@@ -21,11 +21,13 @@ let arregloConNuevoColorFin = [];
 
 indiceAmarillo= original.indexOf("Amarillo");
 
-cantidadColoresConA= original.filter(e=> e.includes 'A')||(e => e.includes 'a');
+//cantidadColoresConA= original.filter(e=> e.includes 'A')||(e => e.includes 'a');
 
 arregloSinAzul= original.filter (Azul => Azul !== 'Azul');    
 
 ordenadoPorCantidadLetras= [...original].sort((a, b) => a.length - b.length);
+
+arregloConNuevoColorInicio= [ "Negro", "Verde", "Azul", "Amarillo"];
 
 console.log(indiceAmarillo);
 console.log(cantidadColoresConA);
