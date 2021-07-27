@@ -1,0 +1,19 @@
+{
+  "name": "avalithskillbasic-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pulisich/Avalith-JavaScript-s-Basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pulisich/Avalith-JavaScript-s-Basics/issues"
+  },
+  "homepage": "https://github.com/Pulisich/Avalith-JavaScript-s-Basics#readme"
+}

@@ -15,5 +15,13 @@ let valorDeC = null;
     Reemplazar este comentario con su codigo.
  */
 
+const {b,...desktop}=original;
+
+sinB=desktop;
+
+const {c}=original;
+
+valorDeC=c;
+
 console.log(sinB);
 console.log(valorDeC);
